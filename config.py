@@ -9,6 +9,7 @@ def get_config():
         "d_model": 512,
         "lang_src": "en",
         "lang_tgt": "pt",
+        "model_basename": "transformer_model",
         "model_folder": "weights",
         "model_filename": "tmodel_",
         "preload": None,
